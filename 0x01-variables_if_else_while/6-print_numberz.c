@@ -11,8 +11,8 @@ int main(void)
 
 	for (i = 1; i < 10; i++)
 	{
-		putchar(i,'0')
+		putchar(i,'0');
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
