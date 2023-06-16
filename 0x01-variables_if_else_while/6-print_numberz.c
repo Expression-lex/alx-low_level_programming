@@ -1,18 +1,18 @@
 #include <stdio.h>
+
 /**
- * main : Entry point
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int i;
+	int ic;
 
-	for (i = '0'; i <= '9'; i++)
+	for (ic = '0'; ic <= '9'; ic++)
 	{
-		putchar(i);
-		/* added the 0 for Ascii convertion*/
+		putchar(ic);
 	}
 	putchar('\n');
 	return (0);
