@@ -16,4 +16,5 @@ int _islower(int c)
 	{
 		return (ca == c ? '1' : '0');
 	}
+	return (0);
 }
