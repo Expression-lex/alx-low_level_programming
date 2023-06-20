@@ -12,14 +12,18 @@ int _isalpha(int c)
 	char alpha;
 
 	if (_islower(c) == 1)
+	{
 		return (1);
-	break;
+	}
+	else
+	{
 	for (alpha = 'A'; alpha <= 'Z'; alpha++)
 	{
 		if (c == alpha)
 		{
 			return (1);
 		}
+	}
 	}
 
 	return (0);
