@@ -9,22 +9,17 @@
 
 int _isalpha(int c)
 {
-	char alpha;
+	char alpha, lower;
 
-	if (_islower(c) == 1)
-	{
-		return (1);
-	}
-	else
-	{
 	for (alpha = 'A'; alpha <= 'Z'; alpha++)
 	{
-		if (c == alpha)
+		for (lower = 'a'; lower = 'z'; lower++)
 		{
-			return (1);
+			if (c == alpha || c == lower)
+			{
+				return (1);
+			}
 		}
 	}
-	}
-
 	return (0);
 }
