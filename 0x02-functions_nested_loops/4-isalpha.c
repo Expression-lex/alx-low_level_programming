@@ -13,7 +13,7 @@ int _isalpha(int c)
 
 	for (alpha = 'A'; alpha <= 'Z'; alpha++)
 	{
-		for (lower = 'a'; lower = 'z'; lower++)
+		for (lower = 'a'; lower <= 'z'; lower++)
 		{
 			if (c == alpha || c == lower)
 			{
