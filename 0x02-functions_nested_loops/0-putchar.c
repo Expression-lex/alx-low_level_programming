@@ -10,7 +10,7 @@ int main(void)
 {
 	char *c = "_putchar";
 	int i;
-	char d = "\n"
+	char d = '\n'
 
 	for (i = 0; c[i] != '\0'; i++)
 	{
