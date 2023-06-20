@@ -14,7 +14,7 @@ int _islower(int c)
 
 	for (ca = 'a'; ca <= 'z'; ca++)
 	{
-		return (ca == c ? '1' : '0');
+		c == ca ? return(1) : return(0);
 	}
 	return (0);
 }
