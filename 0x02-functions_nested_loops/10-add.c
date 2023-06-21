@@ -9,5 +9,7 @@
 
 int add(int a, int b)
 {
-	return ("%d", a + b);
+	int res = a + b;
+
+	return (res);
 }
