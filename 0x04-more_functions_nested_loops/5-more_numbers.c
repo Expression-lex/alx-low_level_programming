@@ -1,9 +1,7 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * more_numbers - Entry Function
- * Description: Look at code
  * Return: Always return void
  */
 
@@ -11,7 +9,7 @@ void more_numbers(void)
 {
 	int i, j;
 
-	for (; i <= 10; i++)
+	for (; i < 10; i++)
 	{
 		for (j = 0; j <= 14; j++)
 		{
