@@ -6,7 +6,7 @@
  * Return: Always 0
  */
 
-oid _puts(char *str)
+void _puts(char *str)
 {
 	int i = 0;
 
