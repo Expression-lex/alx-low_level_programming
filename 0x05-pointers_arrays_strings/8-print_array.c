@@ -11,9 +11,9 @@ void print_array(int *a, int n)
 {
 	int i = 0;
 
-	for (; i <= n; i++)
+x	for (; i <= n; i++)
 	{
-		_putchar(a[i]);
+		printf("%d\n", a[i]);
 		if (i == n)
 			continue;
 		_putchar(',');
