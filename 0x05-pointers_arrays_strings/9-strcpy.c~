@@ -1,0 +1,24 @@
+#include "main.h"
+/**
+ * _strcpy - mimic the strcpy
+ * @dest: parameter input
+ * @src: parameter source
+ * Description: This is using pointers
+ * Return: Always 0
+ */
+
+char *_strcpy(char *dest, char *src)
+{
+	char *new_dest = dest;
+
+	while (*src != '\0')
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
+
+	*dest = '\0';
+
+	return new_dest;
+}
