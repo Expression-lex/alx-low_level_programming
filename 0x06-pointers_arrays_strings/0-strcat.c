@@ -4,8 +4,7 @@
  * _strcat - Entry Point
  * @dest: This is the destination point
  * @src: This is the source
- * Description: Working to concatenate
- * Return: Always 00
+ * Return: Always 0
  */
 
 char *_strcat(char *dest, char *src)
