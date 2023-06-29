@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strcat - Entry Point
  * @dest: This is the destination point
@@ -18,5 +19,6 @@ char *_strcat(char *dest, char *src)
 		*dest++ = *src++;
 
 	*dest = '\0';
+
 	return (new_dest);
 }
