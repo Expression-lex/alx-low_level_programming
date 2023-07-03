@@ -1,0 +1,33 @@
+#include "main.h"
+/**
+ * _strspn - Entry point
+ * @s: input char
+ * @accept: input character
+ * Return: Always reurn 0
+ */
+
+unsigned int _strspn(char *s, char *accept)
+{
+	char *new = accept;
+	int count = 0, i;
+
+	while (*s)
+	{
+		i = 0;
+		while (*accept)
+		{
+			if (*accept == *s)
+			{
+				count++;
+				i = 1;
+				break;
+			}
+			accept++;
+		}
+		s++;
+		accept = new;
+		if (i == 0)
+			break;
+	}
+	return (count);
+}
