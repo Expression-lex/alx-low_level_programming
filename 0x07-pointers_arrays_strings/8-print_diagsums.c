@@ -12,7 +12,7 @@ void print_diagsums(int *a, int size)
 	int i = 0, max = size * size, first = 0, second = 0;
 
 
-	for (; i < max - 1; i += size + 1)
+	for (; i < max; i += size + 1)
 		first += a[i];
 
 	for (i = size - 1; i < max - 1; i += size - 1)
