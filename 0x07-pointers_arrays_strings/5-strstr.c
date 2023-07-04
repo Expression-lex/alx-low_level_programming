@@ -13,8 +13,8 @@ char *_strstr(char *haystack, char *needle)
 
 	while (*haystack)
 	{
-		find = needle;
 		pool = haystack;
+		needle = find;
 		while (*haystack == *needle)
 		{
 			haystack++;
