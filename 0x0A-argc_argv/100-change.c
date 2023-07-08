@@ -26,7 +26,7 @@ int main(int argc, char **argv)
 			coins += amount / 25;
 			amount = amount % 25;
 		}
-		if (amount % 10 >= 10)
+		if (amount % 10 >= 0)
 		{
 			coins += amount / 10;
 			amount = amount % 10;
