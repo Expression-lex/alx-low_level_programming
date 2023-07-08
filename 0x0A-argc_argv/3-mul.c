@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Entry point
  * @argc: count of argument
@@ -8,13 +9,13 @@
 
 int main(int argc, char **argv)
 {
-	int i, mul = 0;
+	int i, mul = 1;
 
 	if (argc > 2)
 	{
 		for (i = 1; i < argc; i++)
 		{
-			mul *= atoi(argv[i])
+			mul *= atoi(argv[i]);
 		}
 		printf("%d\n", mul);
 	}
