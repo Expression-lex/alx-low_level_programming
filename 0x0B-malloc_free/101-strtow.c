@@ -22,7 +22,7 @@ char **strtow(char *str)
 	if (count == 0)
 		return (NULL);
 	arr = malloc(sizeof(char *) * (count + 1));
-	if (array == NULL)
+	if (arr == NULL)
 		return (NULL);
 	for (i = 0; str[i] != '\0' && k < count; i++)
 	{
