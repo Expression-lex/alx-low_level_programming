@@ -10,7 +10,7 @@
  * Return: Nothing
  */
 
-oid print_strings(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
 	unsigned int i = 0;

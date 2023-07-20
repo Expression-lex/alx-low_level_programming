@@ -19,11 +19,8 @@ int sum_them_all(const unsigned int n, ...)
 	{
 		return (sum);
 	}
-	else
-	{
-		for (; i < n; i = va_arg(ap, int))
-			sum += i;
-		va_end(ap);
-		return (sum);
-	}
+	for (; i < n; i = va_arg(ap, int))
+		sum += i;
+	va_end(ap);
+	return (sum);
 }
